@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>
+ï»¿#include <bits/stdc++.h>
 using namespace std;
 
-int arr[15][15]; // ´äÀ» ÀúÀåÇÏ´Â ¹è¿­
+int arr[15][15]; // ë‹µì„ ì €ì¥í•˜ëŠ” ë°°ì—´
 
 
 int solve(int k, int n) {
