@@ -32,7 +32,7 @@ int main(void) {
 		if (op == "pop_back") {
 			if (q.empty()) cout << -1 << '\n';
 			else {
-				cout << q.back() << '\n';	// 순서 상으로는 출력 먼저
+				cout << q.back() << '\n';	
 				q.pop_back();
 			}
 		}

@@ -3,7 +3,7 @@ using namespace std;
 
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-	// 입력 형태가 길기 때문에 시간 초과 주의!
+	// 입력 형태가 길기 때문에 시간 초과 주의
 	queue <int> q;
 	int N,x;
 	string op;

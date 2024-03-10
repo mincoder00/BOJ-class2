@@ -7,7 +7,7 @@ int main(void) {
 	cout << fixed;
 	cout.precision(0);
 
-	//반복문으로 구현 시 시간 초과이므로 수식으로 정리한 부등식 이용
+	//반복문으로 구현 시 시간 초과이므로 수식으로 정리한 부등식 풀이
 	int x = ceil((v - a) / (a - b));
 	cout << x + 1;
 }

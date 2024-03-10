@@ -1,7 +1,7 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
-int arr[15][15]; // 답을 저장하는 배열
+int arr[15][15]; // 답을 저장하는 배열 선언
 
 
 int solve(int k, int n) {
