@@ -13,12 +13,12 @@ int main(void) {
 		cout << 0;
 		return 0;
 	}
-	int cut = round(n*0.15);
+	int cut = round(n * 0.15);
 	float* arr = new float[n];
 
 	for (int i = 0; i < n; i++) cin >> arr[i];
 	sort(arr, arr + n);
-	for (int i = 0+cut; i < n-cut; i++) sum +=arr[i];
+	for (int i = 0 + cut; i < n - cut; i++) sum += arr[i];
 	cout << round(sum / (n - 2 * cut));
 	delete[] arr;
 	return 0;
